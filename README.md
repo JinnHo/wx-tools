@@ -104,6 +104,7 @@ J_getBaiduData(function(prov,city){
 
 ## J_initPickerPAndC(domP, domC)
 J_initPickerPAndC简单调用picker插件生成省市
+`需要引入J-base-ex.js`
 
 picker：[https://github.com/ustbhuangyi/picker](https://github.com/ustbhuangyi/picker)
 
@@ -140,6 +141,7 @@ J_addLoading(1，{color:"red",background:"black"});
 
 ## gd_GetLocalAddress(callback)
 使用高德地图api获取详细位置
+`需要引入J-base-ex.js`
 
 > @param {function} callback 回调函数返回详细数据
 
