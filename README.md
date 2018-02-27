@@ -1,7 +1,10 @@
-## J_addMusic
+## J_addMusic(src,type1,type2)
 
 J_addMusic是一个自动插入音乐的方法，在微信浏览器上经常使用
 
+> @param {string} src 音频路径<br>
+> @param {string} type1 默认音乐按钮（开）<br>
+> @param {string} type2 音乐按钮（关）<br>
 > @param {boolean} isRotate 是否旋转<br>
 > @param {number} top 距离右方的距离（px）<br>
 > @param {number} right 距离上方的距离（px）<br>
@@ -9,13 +12,13 @@ J_addMusic是一个自动插入音乐的方法，在微信浏览器上经常使�
 
 * 示例
 ```javascript
-J_addMusic("images/ms1.png","images/ms2.png","sound.mp3",{isRotate:true,top:"20px",right:"40px"});
+J_addMusic("sound.mp3","images/ms1.png","images/ms2.png",{isRotate:true,top:"20px",right:"40px"});
 ```
 
 ```javascript
+"sound.mp3"//音频文件
 "images/ms1.png"//播放时图标
 "images/ms2.png"//暂停时图标
-"sound.mp3"//音频文件
 ```
 
 ## GetQueryString(name)
