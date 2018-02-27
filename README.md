@@ -138,13 +138,11 @@ J_addLoading添加简单的loading页
 ```javascript
 J_addLoading(1，{color:"red",background:"black"});
 ```
-
-| loading | gif   |
-| --------   | -----:  |
-| 1 | ![loading](https://github.com/JinnHo/wx-tools/blob/master/images/1.gif)| 
-| 2 | ![loading](https://github.com/JinnHo/wx-tools/blob/master/images/1.gif)|  
-| 3 | ![loading](https://github.com/JinnHo/wx-tools/blob/master/images/1.gif)|  
-
+| --------   | --------   | --------   | -----:  |
+| ![loading](https://github.com/JinnHo/wx-tools/blob/master/images/1.gif)|  ![loading](https://github.com/JinnHo/wx-tools/blob/master/images/2.gif)| ![loading](https://github.com/JinnHo/wx-tools/blob/master/images/3.gif)| ![loading](https://github.com/JinnHo/wx-tools/blob/master/images/4.gif)| 
+| 1 |2 |3 |4 |
+| ![loading](https://github.com/JinnHo/wx-tools/blob/master/images/5.gif)|  ![loading](https://github.com/JinnHo/wx-tools/blob/master/images/6.gif)| | | 
+| 5 |6 | | |
 ## gd_GetLocalAddress(callback)
 使用高德地图api获取详细位置
 `需要引入J-base-ex.js`
