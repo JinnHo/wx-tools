@@ -139,6 +139,12 @@ J_addLoading添加简单的loading页
 J_addLoading(1，{color:"red",background:"black"});
 ```
 
+| loading | gif   |
+| --------   | -----:  |
+| 1 | ![loading](https://github.com/JinnHo/wx-tools/blob/master/images/1.gif)| 
+| 2 | ![loading](https://github.com/JinnHo/wx-tools/blob/master/images/1.gif)|  
+| 3 | ![loading](https://github.com/JinnHo/wx-tools/blob/master/images/1.gif)|  
+
 ## gd_GetLocalAddress(callback)
 使用高德地图api获取详细位置
 `需要引入J-base-ex.js`
