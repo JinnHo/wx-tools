@@ -1,6 +1,6 @@
 ## J_addMusic(src,type1,type2)
 
-J_addMusic是一个自动插入音乐的方法，在微信浏览器上经常使用
+J_addMusic是一个自动插入音乐的方法，在微信浏览器上经常使用~
 
 > @param {string} src 音频路径<br>
 > @param {string} type1 默认音乐按钮（开）<br>
